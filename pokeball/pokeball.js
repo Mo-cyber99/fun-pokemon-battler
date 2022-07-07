@@ -29,4 +29,5 @@ module.exports = {
     Squirtle,
     Bulbasaur,
     Rattata,
+    
 }
