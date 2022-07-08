@@ -33,9 +33,12 @@ class Rattata extends Pokemon {
 }
 
 module.exports = {
+    Pokemon,
+    FirePokemon,
+    GrassPokemon,
+    WaterPokemon,
     Charmander,
     Squirtle,
     Bulbasaur,
     Rattata,
-    
 }

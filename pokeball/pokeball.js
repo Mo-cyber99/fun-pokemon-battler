@@ -1,4 +1,8 @@
 const {
+    Pokemon,
+    FirePokemon,
+    GrassPokemon,
+    WaterPokemon,
     Charmander,
     Squirtle,
     Bulbasaur,
@@ -11,7 +15,8 @@ class Pokeball {
     }
 
     throw (pokemon) {
-        if (this.contains.pokemon === undefined) {
+    
+    if (this.contains.pokemon === undefined) {
             this.contains = {pokemon};
                 if (this.contains.pokemon !== undefined) {
                     return console.log(`you caught a ${pokemon.name}!`);
@@ -39,10 +44,13 @@ class Pokeball {
 }
 
 module.exports = {
-    Pokeball,
+    Pokemon,
+    FirePokemon,
+    GrassPokemon,
+    WaterPokemon,
     Charmander,
     Squirtle,
     Bulbasaur,
     Rattata,
-    
+    Pokeball,
 }
