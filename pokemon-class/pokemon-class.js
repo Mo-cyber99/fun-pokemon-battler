@@ -24,7 +24,7 @@ class Pokemon {
     }
 
     useMove (pokemon) {
-        console.log(`${pokemon.name} used ${pokemon.move} move!`);
+        console.log(`${pokemon.name} used ${pokemon.move}`);
         return pokemon.attackDamage;        
     }
 
