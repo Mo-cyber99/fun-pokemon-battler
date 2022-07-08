@@ -49,7 +49,7 @@ let testPokeball = new Pokeball();
     })
 })
 
-describe.only('contain', () => {
+describe('contain', () => {
 let testPokeball = new Pokeball(Charmander);
     test('should return the name of the pokemon that is stored', () => {
         expect(testPokeball.contain()).toBe("Charmander");
