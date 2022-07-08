@@ -17,6 +17,9 @@ class Pokemon {
 
     takeDamage (attackersDamage) {
        this.hitPoints -= attackersDamage;
+       if (this.hitPoints < 0) {
+        return this.hitPoints = 0;
+       }
        return this.hitPoints;
     }
 
